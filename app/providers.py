@@ -58,6 +58,6 @@ def get_provider(mode: str):
         try:
             return HfProvider()
         except Exception:
-            return MockProvider()  # repli automatique
+            return MockProvider()  
 
     return MockProvider()
